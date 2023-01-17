@@ -1,0 +1,29 @@
+/*|---------------| App Color Schema|---------------*/
+$GREEN: #B3DCBE;
+$YELLOW:rgb(229, 179, 93);
+$PINK: #FF6060;
+$GRAY: #F6F6F6;
+$BLACK_FONT:rgba(12, 7, 7, 0.692);
+$GRAY_BACK:rgba(255, 249, 249, 0.692);
+$GRAY_BACK_GALLERY:rgba(242, 236, 236, 0.79);
+$GRAY-TRANS:rgba(128, 128, 128, 0.511);
+$GRAY-TRANS-HOVER:rgba(61, 61, 61, 0.511);
+
+
+/*|---------------| App Font-size|---------------*/
+$BODY:1rem;
+$TITLE1:3rem;
+$TITLE2:2rem;
+$PARAG:1.5rem;
+
+
+// Usage example:  @media #{$BREAKPOINT-DESK}
+
+$BREAKPOINT-DESK: "only screen and (min-width: 1280px)";
+$BREAKPOINT-TABLET-LAND: "only screen and (min-width: 975px)";
+$BREAKPOINT-TABLET: "only screen and (min-width: 600px)";
+$BREAKPOINT-MOBILE-LAND: "only screen and (min-width: 480px)";
+
+/*|---------------|MIXINS|---------------*/
+
+  
